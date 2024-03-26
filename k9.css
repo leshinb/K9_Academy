@@ -6,10 +6,16 @@
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin:0;
 	background-image: url(https://i.imgur.com/djRrsTX.jpeg);
-	background-size: 125%;
-	
+	background-size: 125%;	
 }
-.nav{
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.nav{ /*This provides basic structure for nav like size, spacing, and color */
 	text-align: center;
 	width: 100%;
 	margin: 0, auto;
@@ -19,51 +25,46 @@
 	top: 10px;
 	word-spacing: 120px;
 }
-.nav li{
-	width: 90px;
-}
-.navtxt{
+.navtxt{ /*Text specific formatting to allow proper formatting and positioning */
 	font-size: 25px;
 	color: black;
 	text-decoration: none;
 	vertical-align: -50px;
-	
 }
-.button{
+.logo{ /* The formatting specific to the logo within the nav */
+	max-height: 100px;
+	max-width: auto;
+	display: inline-block;
+	vertical-align: -50px
+}
+.button{ /*Apply now button */
 	font-size: 42px;
 	color: black;
 	background-color: lightgray;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 10px;
-	
 }
-.overlay {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    text-align: center;
-}
-
-.logo{
-	max-height: 100px;
-	max-width: auto;
-	display: inline-block;
-	vertical-align: -50px
-}
-.banner1{
+.banner1{ /*First section generic format */
 	text-align: center;
-	padding-bottom: 50px;
-	
+	padding-bottom: 50px;	
 }
-
-.welcome{
+.welcome{ /*Welcome message text formatting */
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 84px;
 }
-.founderImg{
+.banner2{ /*Section 2 formatting */
+	text-align: left;
+	background-color: rgba(0, 23.14, 43.53, .5); /*TARDIS Blue RGB Code with opacity altered for background */
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	padding-left:20px;
+}
+.founderImg{ /*Image in section 2 */
 	margin: 0;
 	max-height: 300px;
 	max-width: 300px;
@@ -74,28 +75,14 @@
 	margin-left: 200px;
 	float: left
 }
-.banner{
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-}
-.banner2{
-	text-align: left;
-	background-color: rgba(0, 23.14, 43.53, .5);
-	margin-left: 5%;
-	margin-right: 5%;
-	color:white;
-	padding-bottom: 80px;
-	padding-top: 20px;
-	padding-left:20px;
-}
-.Foundermsg{
+.Foundermsg{ /*Message from founder "Affirmative" */
 	font-size: 25px;
 	text-align: right;
 	padding-right: 200px;
 }
-.toolgallery{
-	background-color: rgba(0, 23.14, 43.53, .5);
+
+.toolgallery{ /*Section 3 */
+	background-color: rgba(0, 23.14, 43.53, .5); /*TARDIS Blue RGB Code with opacity altered for background */
 	text-align: left;
 	padding-top: 20px;
 	padding-left:28px;
@@ -105,46 +92,46 @@
 	margin-bottom: 50px;
 	color:white;
 }
-.schematics{
+.DRImg{ /*First Tool with Doctor image */
 	max-height: 200px;
 	max-width: auto;
 	padding-bottom: 25px;
-	position: center;
 }
-.drtitle{
+.drtitle{ /*Title underneath first image */
 	text-align: left;
 	margin-top: -10px;
 	margin-left: 80px;
 }
-.schematictitle{
-	margin-top: -10px;
-}
-.schematicLink{
+.schematicLink{ /*General formatting for Schematic Tool image & Text */
 	text-align: center;
 	vertical-align: 50px;
 	float: center;
 	margin-top: -260px;
 }
-.puppytxt{
+.schematics{ /*The second image in tools */
+	max-height: 200px;
+	max-width: auto;
+	padding-bottom: 25px;
+	position: center;
+}
+.schematictitle{ /*Title for tool 2 */
+	margin-top: -10px;
+}
+.puppytxt{ /*3rd tool title */
 	margin-top: -10px;
 	margin-right: 40px;
 }
-.puppytips{
+.puppytips{ /*3rd tool image */
 	text-align: right;
 	vertical-align: 50px;
 	margin-top: -260px;
 	margin-right: 50px;
 }
-.DRImg{
-	max-height: 200px;
-	max-width: auto;
-	padding-bottom: 25px;
-}
-.footer{
+.footer{ /*Bottom footer section formatting */
 	background-color: #003b6f;
 	height: 75px;
 }
-.copyright{
+.copyright{ /*Text in footer */
 	color: white;
 	padding-top: 10px;
 }
