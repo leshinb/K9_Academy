@@ -1,0 +1,147 @@
+@charset "utf-8";
+.body{
+	background-color: #000000;
+}
+.main{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin:0;
+	background-image: url(https://i.imgur.com/djRrsTX.jpeg);
+	background-size: 125%;
+	
+}
+.nav{
+	text-align: center;
+	width: 100%;
+	margin: 0, auto;
+	height: 75px;
+	background-color: #003b6f;
+	display: inline-block;
+	top: 10px;
+	word-spacing: 120px;
+}
+.nav li{
+	width: 90px;
+}
+.navtxt{
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	vertical-align: -50px;
+	
+}
+.button{
+	font-size: 42px;
+	color: black;
+	background-color: lightgray;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.logo{
+	max-height: 100px;
+	max-width: auto;
+	display: inline-block;
+	vertical-align: -50px
+}
+.banner1{
+	text-align: center;
+	padding-bottom: 50px;
+	
+}
+
+.welcome{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 84px;
+}
+.founderImg{
+	margin: 0;
+	max-height: 300px;
+	max-width: 300px;
+	opacity: 100%;
+	top: -10px;
+	display: inline-block;
+	margin: 10px;
+	margin-left: 200px;
+	float: left
+}
+.banner{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+.banner2{
+	text-align: left;
+	background-color: rgba(0, 23.14, 43.53, .5);
+	margin-left: 5%;
+	margin-right: 5%;
+	color:white;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	padding-left:20px;
+}
+.Foundermsg{
+	font-size: 25px;
+	text-align: right;
+	padding-right: 200px;
+}
+.toolgallery{
+	background-color: rgba(0, 23.14, 43.53, .5);
+	text-align: left;
+	padding-top: 20px;
+	padding-left:28px;
+	padding-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	color:white;
+}
+.schematics{
+	max-height: 200px;
+	max-width: auto;
+	padding-bottom: 25px;
+	position: center;
+}
+.drtitle{
+	text-align: left;
+	margin-top: -10px;
+	margin-left: 80px;
+}
+.schematictitle{
+	margin-top: -10px;
+}
+.schematicLink{
+	text-align: center;
+	vertical-align: 50px;
+	float: center;
+	margin-top: -260px;
+}
+.puppytxt{
+	margin-top: -10px;
+	margin-right: 40px;
+}
+.puppytips{
+	text-align: right;
+	vertical-align: 50px;
+	margin-top: -260px;
+	margin-right: 50px;
+}
+.DRImg{
+	max-height: 200px;
+	max-width: auto;
+	padding-bottom: 25px;
+}
+.footer{
+	background-color: #003b6f;
+	height: 75px;
+}
+.copy
